@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+
+    --color-primary: #0f1c25;
+    --color-primary-darker: #0d1921;
+    --color-secondary: #a9c6ca;
+    --color-primary-offset:#202b2e;
+    --color-primary-offset-opacity:rgba(32, 43, 46, 0.3);
+    --color-purple-primary:#8768b6;
+    --color-green-primary:#57C791;
+    --color-green-complementary:#57C6C7;
+    --color-yellow-primary:#E9F47C;
+    --font-heading:"Nunito-sans", sans-serif;
+    --color-purple-complementary:#6870B6;
+    /*--color-red-primary:#ED858F;*/
+    --color-red-primary:#CF5F6A;
+    --color-glacier-blue:#7FC8CA;
+    --color-glacier-blue-complementary:#7FA3CA;
+    --color-red-complementary:#c13a47;
+    --color-off-white:#eae6e6;
+    --color-pink-primary:#D8739D;
+    --shadow-primary:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+    --breakpoint-midxl:90rem;
+
+
+
+    --animate-border-spin: border-spin 7s linear infinite;
+}
+
+@layer utilities {
+
+    .gradient-text{
+        @apply text-transparent bg-clip-text;
+    }
+
+
+    /* Act as a border */
+    .card-wrapper {
+        @apply relative overflow-hidden rounded-2xl;
+    }
+
+    /* Gradient */
+    .card-wrapper::before {
+        background: conic-gradient(
+
+                var(--color-glacier-blue) 0deg,
+                var(--color-glacier-blue) 0deg,
+                transparent 80deg
+        );
+
+        @apply absolute left-[-25%] top-[-25%] h-[150%] w-[150%] animate-border-spin content-[''];
+    }
+
+    /* Body */
+    .card-content {
+        @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-2xl bg-primary;
+    }
+}
+
+@keyframes border-spin {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
