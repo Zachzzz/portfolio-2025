@@ -5,7 +5,7 @@ import TechStackIcon from "../tech-stack-display/TechStackIcon.tsx";
 
 export function FeaturedProject(props:ProjectSampleProps){
     return <div className={"card-wrapper h-[635px] w-[280px] mx-auto md:h-[695px]  midxl:h-[975px] md:w-8/10 lg:h-[850px] xl:h-[895px] " +
-        "  2xl:w-6/10 2xl:h-[985px]"}>
+        "  2xl:w-6/10 2xl:h-[985px] 3xl:h-[1150px]"}>
         <div className={'card-content'}>
             <h2 className={'font-heading font-semibold text-center text-2xl pt-1 lg:text-3xl mb-2'}>Featured Project!</h2>
             <div className={"flex flex-col  p-1"}>
