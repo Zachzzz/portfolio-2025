@@ -6,7 +6,7 @@ import TechStackDisplay from "../tech-stack-display/TechStackDisplay.tsx";
 export default function AboutMe() {
 
 
-    return <div className="py-20">
+    return <div className="py-15">
         <div className="max-w-5xl mx-auto px-6">
 
             {/*<h2 className="text-4xl font-heading md:text-5xl font-bold mb-2 text-center md:mr-3 md:text-left lg:ml-5 xl:mb-3 lg:text-center">*/}
@@ -15,7 +15,7 @@ export default function AboutMe() {
             {/*<div*/}
             {/*    className="hidden md:block w-full bg-purple-complementary ml-1 rounded h-1 md:mb-5  lg:w-3/10 lg:mx-auto xl:mb-2">*/}
             {/*</div>*/}
-            <div className="text-center md:mb-30">
+            <div className="text-center md:mb-35">
                 <div className="w-1 h-full rounded-full"></div>
                 <motion.div
                     className="md:flex mb-3 md:flex-row p-2 rounded-xl md:p-1 md:mb-5 lg:p-5"

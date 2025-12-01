@@ -37,10 +37,10 @@ export default function ExperienceIndex() {
                                      "OOP Principles",
                                      "Advanced T-SQL and MSSQL Server",
                                      "Networking & Operating Systems",
-                                     "Community Sponsored Project: developed a web application using ASP.NET, C#, " +
-                                     "JavaScript, SQL, HTML, and CSS, with a team of students, for a local charity.",
                                      "Test Driven Development",
                                      "Agile Development",
+                                     "Community Sponsored Project: developed a web application using ASP.NET, C#, " +
+                                     "JavaScript, SQL, HTML, and CSS, with a team of students, for a local charity.",
                                  ]}/>
             </div>
         </div>

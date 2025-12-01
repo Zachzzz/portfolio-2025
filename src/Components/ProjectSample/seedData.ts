@@ -15,7 +15,7 @@ export const projects: ProjectSampleProps[] = [
         longDescription: "This project is a fully featured Pokémon battle simulator designed to replicate the competitive experience. The frontend is built with React, Tailwind CSS and TypeScript, and has a responsive design with intuitive battle interactions. The backend uses Python and Flask, with Socket.io to connect players.\n" +
             "\n" +
             "The simulator supports all major game mechanics up through Generation 7, including abilities, move interactions, weather, terrains, items, priority, status effects, switching, mega evolutions, z-moves and more. The teambuilder allows players to assemble, edit, and save custom teams, and the battle history tab stores past matches. Players can queue for battles, be matched automatically, or challenge specific opponents in one on one battles.",
-        images: ["https://imgur.com/txnrPB1", "/portfolio-2025/assets/PokemonBattleSimulator/History_Pokemon_sim.png", "/assets/PokemonBattleSimulator/TeamBuilder_Pokemon_sim.png", "/assets/PokemonBattleSimulator/Index_Pokemon_sim.png"],
+        images: ["https://imgur.com/txnrPB1.png", "https://imgur.com/4GUU1Ej.png", "https://imgur.com/fsKa0OV.png", "https://imgur.com/m6y3Cns.png"],
         gitHubUrl: "https://github.com/example/weather-dashboard",
         liveUrl: "https://weather-dashboard-demo.netlify.app",
         featured:true,
@@ -29,16 +29,16 @@ export const projects: ProjectSampleProps[] = [
             "Users can view their top tracks, albums, and artists across multiple time ranges, then compare how their listening trends change each time they revisit the app. A built-in catalogue system allows users to save albums they love or want to revisit later, creating a personalized listening library. For added fun and discovery, the app can also select a random saved album and instantly open it for playback.\n" +
             "\n" +
             "Combining fast performance, responsive design, and smart data visualization, this app delivers a powerful yet simple way to dive deeper into your Spotify listening history.",
-        images: ["/assets/SpotifyTracker/spotify_tracker_tracks.png","/assets/SpotifyTracker/spotify_tracker_catalogue.png","/assets/SpotifyTracker/spotify_tracker_artists.png", ],
+        images: ["https://imgur.com/iS3US1a.png","https://imgur.com/bC7UQtx.png","https://imgur.com/PQd8Uac.png", ],
         gitHubUrl: "https://github.com/example/task-tracker",
         liveUrl: "https://task-tracker-demo.vercel.app",
         techStack:['React', 'TailwindCSS', "ASP.NET", "C#", "TypeScript"]
     },
     {
         title: "Productivity Suite",
-        shortDescription: "A sleek productivity suite built with React, Tailwind, TypeScript, and Python/Flask, featuring a Markdown text editor, a Kanban board, and a calendar for managing tasks and events.",
-        longDescription: "This productivity suite combines essential tools to keep you organized and efficient. Built with React, Tailwind CSS, TypeScript, and Python/Flask, it offers a modern, responsive, and visually cohesive interface. The Markdown text editor lets you create and format notes, ideas, and documents seamlessly. The Kanban board allows you to manage tasks across customizable columns, each with distinct accent colors for clarity. The calendar helps you track events, deadlines, and reminders at a glance. With its dark-themed design and intuitive layout, this suite provides a smooth and visually appealing experience for managing both work and personal projects.",
-        images: ["/assets/ProductivityApp/productivity_calendar.png","/assets/ProductivityApp/productivity_kanban.png", "/assets/ProductivityApp/productivity_notepad.png"],
+        shortDescription: "A sleek productivity suite built with React, Tailwind, TypeScript, and Python/Flask and SQLAlchemy + SQLlite, featuring a Markdown text editor, a Kanban board, and a calendar for managing tasks and events.",
+        longDescription: "This productivity suite combines essential tools to keep you organized and efficient. Built with React, TailwindCSS, TypeScript, and Python/Flask, it offers a modern, responsive, and visually cohesive interface. The Markdown text editor lets you create and format notes, ideas, and documents seamlessly. The Kanban board allows you to manage tasks across customizable columns, each with distinct accent colors for clarity. The calendar helps you track events, deadlines, and reminders at a glance. With its dark-themed design and intuitive layout, this suite provides a smooth and visually appealing experience for managing both work and personal projects.",
+        images: ["https://imgur.com/QugMH5d.png","https://imgur.com/4EwAkAV.png", "https://imgur.com/96FkQIq.png"],
         gitHubUrl: "https://github.com/example/portfolio-website",
         liveUrl: "https://portfolio-demo.vercel.app",
         techStack:['React', 'TailwindCSS', "Flask", "Python", "TypeScript"]

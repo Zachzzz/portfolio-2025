@@ -1,5 +1,6 @@
 import {Link} from "@tanstack/react-router";
 import {useMediaQuery} from "usehooks-ts";
+import TechStackIcon from "../tech-stack-display/TechStackIcon.tsx";
 
 
 export type ProjectSampleProps = {
@@ -36,7 +37,8 @@ export default function ProjectSample(props:ProjectSampleProps) {
                         to={`/projects/${props.title.replaceAll(" ", '-')}`}>
                         View
                     </Link>
-
+                    {props.techStack.map(s => // for some reason pythons non-grayscale icons are broken
+                        <TechStackIcon name={s}/>)}
                 </div>
             </div>
             <div>
