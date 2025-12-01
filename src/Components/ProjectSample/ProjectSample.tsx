@@ -1,6 +1,6 @@
 import {Link} from "@tanstack/react-router";
-import StyledStackIcon from "../tech-stack-display/StyledStackIcon.tsx";
 import {useMediaQuery} from "usehooks-ts";
+
 
 export type ProjectSampleProps = {
     title: string;
@@ -36,7 +36,7 @@ export default function ProjectSample(props:ProjectSampleProps) {
                         to={`/projects/${props.title.replaceAll(" ", '-')}`}>
                         View
                     </Link>
-                    {props.techStack.map(t => <StyledStackIcon name={t.toLowerCase()} variant={t === "Python" ? "grayscale" :undefined}/>)}
+
                 </div>
             </div>
             <div>

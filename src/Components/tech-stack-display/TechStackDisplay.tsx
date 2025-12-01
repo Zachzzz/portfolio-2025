@@ -1,4 +1,4 @@
-import StackIcon from "tech-stack-icons";
+
 
 
 export default function TechStackDisplay() {
@@ -16,12 +16,12 @@ export default function TechStackDisplay() {
         </p>
         <div className="flex gap-2 flex-wrap  bg-primary-offset-opacity border border-primary-offset justify-center md:w-fit mx-auto md:rounded
         p-1 mt-3 mb-3 ">
-            <StackIcon name="c#" className={'size-10'}/>
-            <StackIcon name="react"  className={'size-10'}/>
-            <StackIcon name="python"  className={'size-10'} variant={"grayscale"} />
-            <StackIcon name="typescript"  className={'size-10'} />
-            <StackIcon name="tailwindcss"  className={'size-10'} />
-            <StackIcon name="flask" className={'size-10'} variant={"dark"} />
+            {/*<StackIcon name="c#" className={'size-10'}/>*/}
+            {/*<StackIcon name="react"  className={'size-10'}/>*/}
+            {/*<StackIcon name="python"  className={'size-10'} variant={"grayscale"} />*/}
+            {/*<StackIcon name="typescript"  className={'size-10'} />*/}
+            {/*<StackIcon name="tailwindcss"  className={'size-10'} />*/}
+            {/*<StackIcon name="flask" className={'size-10'} variant={"dark"} />*/}
             {/*<StyledStackIcon name="java"  />*/}
             {/*<StyledStackIcon name="mongodb" />*/}
             {/*<StyledStackIcon name="flask"   variant={"dark"}/>*/}

@@ -1,6 +1,7 @@
 import {Link} from "@tanstack/react-router";
 import type {ProjectSampleProps} from "./ProjectSample.tsx";
-import StyledStackIcon from "../tech-stack-display/StyledStackIcon.tsx";
+import TechBubble from "../TechBubble.tsx";
+
 
 export function FeaturedProject(props:ProjectSampleProps){
     return <div className={"card-wrapper h-[635px] w-[280px] mx-auto md:h-[695px]  midxl:h-[975px] md:w-8/10 lg:h-[850px] xl:h-[895px] " +
@@ -15,9 +16,9 @@ export function FeaturedProject(props:ProjectSampleProps){
                 <div>
 
                     <img loading={'eager'} className={'m-1 block mx-auto lg:p-10 xl:px-25'} src={props.images[0]} alt={`An image display of my project ${props.title}`}/>
-                    <div className={'my-5 mx-auto w-fit flex gap-2'}>
+                    <div className={'my-5 mx-auto w-fit grid grid-cols-2 gap-2'}>
                         {props.techStack.map(s => // for some reason pythons non-grayscale icons are broken
-                        <StyledStackIcon name={s.toLowerCase()} variant={s === "Python" ? "grayscale" :undefined}/>)}
+                            <TechBubble name={s} className={'border-glacier-blue rounded-2xl px-2 sm:border-0'}/>)}
                     </div>
 
                 </div>
