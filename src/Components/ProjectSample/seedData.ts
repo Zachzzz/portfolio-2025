@@ -15,7 +15,7 @@ export const projects: ProjectSampleProps[] = [
         longDescription: "This project is a fully featured Pokémon battle simulator designed to replicate the competitive experience. The frontend is built with React, Tailwind CSS and TypeScript, and has a responsive design with intuitive battle interactions. The backend uses Python and Flask, with Socket.io to connect players.\n" +
             "\n" +
             "The simulator supports all major game mechanics up through Generation 7, including abilities, move interactions, weather, terrains, items, priority, status effects, switching, mega evolutions, z-moves and more. The teambuilder allows players to assemble, edit, and save custom teams, and the battle history tab stores past matches. Players can queue for battles, be matched automatically, or challenge specific opponents in one on one battles.",
-        images: ["/portfolio-2025/assets/PokemonBattleSimulator/Battle_pokemon_sim.png", "/portfolio-2025/assets/PokemonBattleSimulator/History_Pokemon_sim.png", "/assets/PokemonBattleSimulator/TeamBuilder_Pokemon_sim.png", "/assets/PokemonBattleSimulator/Index_Pokemon_sim.png"],
+        images: ["https://imgur.com/txnrPB1", "/portfolio-2025/assets/PokemonBattleSimulator/History_Pokemon_sim.png", "/assets/PokemonBattleSimulator/TeamBuilder_Pokemon_sim.png", "/assets/PokemonBattleSimulator/Index_Pokemon_sim.png"],
         gitHubUrl: "https://github.com/example/weather-dashboard",
         liveUrl: "https://weather-dashboard-demo.netlify.app",
         featured:true,
