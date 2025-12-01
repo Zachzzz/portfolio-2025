@@ -23,7 +23,7 @@ export function FeaturedProject(props:ProjectSampleProps){
 
                 </div>
 
-                <div className={'text-center p-1 mb-2 lg:p-3 lg:mx-auto xl:px-25'}>
+                <div className={'text-center p-1 mb-2 lg:p-3 lg:mx-auto xl:px-25 font-semibold'}>
                     {props.shortDescription}
                 </div>
                 <Link
